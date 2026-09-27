@@ -1,0 +1,33 @@
+# Beispiel-Klientenstil. Kopieren nach clients/<klient>/style.yaml (gitignored).
+name: Beispielbank
+master: master.potx            # Klienten-Master im selben Ordner (Rahmen, Logo, Titelzeile)
+layouts:                       # Mapping: Rolle -> Layoutname im Master
+  title: "Titelfolie"
+  content: "Titel und Inhalt"
+  blank_with_title: "Nur Titel"
+
+tokens:
+  colors:
+    primary: "#002D62"
+    secondary: "#6B8EAD"
+    accent: "#E87722"
+    positive: "#2E7D32"
+    warning: "#F9A825"
+    negative: "#C62828"
+    text: "#1A1A1A"
+    muted: "#8C8C8C"
+  fonts:
+    heading: "Arial"
+    body: "Arial"
+  sizes_pt:
+    title: 20
+    body: 12
+    min: 9                     # darunter wird verdichtet statt verkleinert
+  spacing_cm:
+    margin: 1.2
+    gutter: 0.4
+
+tone:
+  language: de
+  address: formal              # Sie-Form
+  terminology: {}              # z. B. { "Projekt": "Programm" }

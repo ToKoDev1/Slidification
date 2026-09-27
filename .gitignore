@@ -1,0 +1,29 @@
+# --- Vertraulichkeit: keine Klienten- oder Referenzdateien im Repo ---
+*.pptx
+*.potx
+*.ppt
+*.pdf
+*.docx
+*.xlsx
+*.vtt
+*.srt
+
+# Klienten-Stile: nur das Beispiel ist versioniert
+clients/*
+!clients/_example/
+
+# Referenzfolien bleiben lokal
+reference/*
+!reference/README.md
+
+# Lokale Konfiguration & Output
+slidification.config.yaml
+output/
+
+# Tooling
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+.DS_Store
+~$*

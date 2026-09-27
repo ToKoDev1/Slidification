@@ -1,0 +1,5 @@
+# Kopieren nach slidification.config.yaml (gitignored) und Pfade anpassen.
+clients_dir: ~/Slidification-Clients     # lokale Klienten-Stile (Master + style.yaml)
+reference_dir: ./reference               # Best-Practice-Folien (lokal)
+output_dir: ./output
+default_client: _example
