@@ -43,6 +43,17 @@ Jede Regel muss **maschinell prüfbar** sein. Grenzwerte sind vorläufig und wer
 21. **Tracker optional**: Kapitel-/Abschnittsmarke oben, klein, in `muted` – nie mehr als ein Tracker.
 22. **Kapiteltrenner** dürfen invertiert sein (dunkler Hintergrund in `primary`, weiße Schrift); Inhaltsfolien bleiben hell.
 
+## Handwerk – keine Standardformen
+23. **Keine SmartArt, keine Office-Formvorlagen**: Jede Grafik wird aus Grundformen selbst gebaut; Office-Schnellformatvorlagen und Theme-Effekte sind tabu.
+24. **Keine Default-Farben**: Office-Standardpalette (z. B. Blau #4472C4, Orange #ED7D31) kommt nie vor – nur Klienten-Tokens.
+25. **Linie vor Box**: Wo eine Trennlinie oder Weißraum gliedert, entfällt der Kasten. Boxen nur, wenn sie eine Einheit bilden.
+26. **Reduzierte Formen**: Rechtecke eckig oder minimal gerundet (einheitlicher Radius); keine Blockpfeile, Sterne, Sprechblasen, Standard-Chevrons. Pfeile als dünne Linien mit kleiner Spitze.
+27. **Typografie als Gestaltungsmittel**: Nummerierung, Kennzahlen und Kernwerte als große, fette Ziffern statt Kreis-Bubbles oder Icons.
+28. **Einheitliche Linienstärken**: max. 2 Strichstärken je Folie (z. B. 0,75 pt Struktur, 2 pt Akzent).
+29. **Tabellen schlank**: keine Tabellenformatvorlagen, keine Zebrastreifen, keine vertikalen Linien; nur dünne horizontale Trenner, Kopfzeile fett.
+30. **Optische Präzision**: Kanten bündig, Textblöcke auf gemeinsamer Grundlinie, einheitliche Innenabstände in allen Formen; kein Autofit-Schrumpfen.
+31. **Begründungspflicht**: Jedes Element hat eine Funktion für die Aussage – sonst wird es entfernt.
+
 ## Prüfbarkeit (für QA-Schritt)
 
 | Regel | Maschinell prüfbar über |
@@ -54,6 +65,8 @@ Jede Regel muss **maschinell prüfbar** sein. Grenzwerte sind vorläufig und wer
 | 12–13 | Chart-XML: Legende, Gitterlinien, Achsen, 3D-Flags |
 | 17 | Shape-XML: Schatten, Verläufe, Effekte |
 | 20 | Existenz und Position Quellen-Platzhalter |
+| 23–24, 26 | Shape-XML: SmartArt-/Diagramm-Parts, Preset-Geometrien, Farbwerte gegen Tokens |
+| 28–30 | Linienstärken, Tabellen-Styles, Innenabstände, Autofit-Flags |
 
 ## Referenzquellen (öffentlich, aktuell)
 
