@@ -1,6 +1,7 @@
 # Regeln „managementtauglich“ (QA-Rubrik, Entwurf)
 
 Jede Regel muss **maschinell prüfbar** sein. Wird anhand der Referenzfolien geschärft.
+Visuelle Regeln (Farbe, Weißraum, Charts, Shapes): siehe `modern-design.md`.
 
 ## Folie
 1. **Action Title**: Titel ist eine Aussage (Satz mit Verb), kein Thema. Max. 2 Zeilen.
@@ -15,3 +16,4 @@ Jede Regel muss **maschinell prüfbar** sein. Wird anhand der Referenzfolien ges
 8. **Zahlenkonsistenz**: Gleiche Kennzahl = gleicher Wert auf allen Folien.
 9. **Ownership**: Maßnahmen haben Owner und Termin.
 10. **Keine Floskeln**: „holistisch“, „leverage“, „Journey“ etc. sind verboten.
+11. **Modernes Design**: Folien erfüllen `modern-design.md` (u. a. ein Akzent pro Folie, direkte Chart-Beschriftung, keine Effekte).

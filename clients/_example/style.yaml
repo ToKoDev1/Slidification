@@ -27,6 +27,13 @@ tokens:
     margin: 1.2
     gutter: 0.4
 
+emphasis:                      # Einsatz der Tokens, siehe rules/modern-design.md
+  default_fill: muted          # Standardfarbe für Elemente ohne Aussagefunktion
+  highlight: accent            # markiert ausschließlich die Kernaussage
+  max_accents_per_slide: 1
+  max_colors_per_slide: 3      # ohne Grau und Text
+  min_whitespace_ratio: 0.3
+
 tone:
   language: de
   address: formal              # Sie-Form

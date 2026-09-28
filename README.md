@@ -30,7 +30,7 @@ Input (ExecSum / Notizen / Draft)
 | Pfad | Inhalt | Im Repo? |
 |---|---|---|
 | `library/slide-types/` | Archetyp-Katalog & Baupläne | ja |
-| `rules/` | Regeln „managementtauglich“ (QA-Rubrik) | ja |
+| `rules/` | Regeln „managementtauglich“ + modernes Design (QA-Rubrik) | ja |
 | `clients/_example/` | Beispiel-Stilkonfiguration | ja |
 | `clients/<klient>/` | echte Klienten-Master & Tokens | **nein** (gitignored) |
 | `reference/` | Best-Practice-Folien zum Lernen | **nein** (gitignored) |
